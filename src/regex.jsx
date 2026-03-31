@@ -4,7 +4,7 @@ import "./RegexTranslator.css";
 // ─────────────────────────────────────────────────────────────
 //  BACKEND URL — change this if Flask runs on a different port
 // ─────────────────────────────────────────────────────────────
-const API_URL = "http://127.0.0.1:5000/analyze";
+const API_URL = "https://toc-project-azwy.onrender.com/analyze";
 
 async function parseRegex(pattern) {
   const res = await fetch(API_URL, {
